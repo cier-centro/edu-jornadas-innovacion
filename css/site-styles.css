@@ -732,7 +732,7 @@ h1.logo {
  * --------------------------------------------------
  */
 .site-innovacioneducativa #microsite_panel .slide .pane-content > .menu {
-  background-color: #e97117 !important; }
+  background-color: #387BA0 !important; }
   .site-innovacioneducativa #microsite_panel .slide .pane-content > .menu > .last .children_menu {
     right: 0; }
   .site-innovacioneducativa #microsite_panel .slide .pane-content > .menu li.parent_menu > a {
@@ -752,7 +752,7 @@ h1.logo {
       .site-innovacioneducativa #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:last-child {
         border-bottom: none; }
       .site-innovacioneducativa #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a {
-        background-color: #e97117 !important;
+        background-color: #387BA0 !important;
         border-bottom: 1px solid rgba(153, 153, 153, 0.4) !important;
         color: white !important;
         line-height: 14px;
@@ -761,7 +761,7 @@ h1.logo {
         padding: 15px; }
         .site-innovacioneducativa #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a:hover {
           background: white !important;
-          color: #e97117 !important;
+          color: #387BA0 !important;
           text-decoration: none;
           padding: 18px 15px !important;
           display: block;
@@ -774,16 +774,16 @@ h1.logo {
   .site-innovacioneducativa #microsite_panel .slide .pane-content > .menu li:hover {
     color: white;
     text-decoration: none !important;
-    background-color: #e25f05; }
+    background-color: #1E1B3F; }
   .site-innovacioneducativa #microsite_panel .slide .pane-content > .menu li.expanded > a:hover {
     color: white !important;
     text-decoration: none !important;
-    background-color: #e25f05; }
+    background-color: #1E1B3F; }
   .site-innovacioneducativa #microsite_panel .slide .pane-content > .menu:hover {
     color: white !important;
     text-decoration: none !important; }
     .site-innovacioneducativa #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover {
-      background-color: #e25f05;
+      background-color: #1E1B3F;
       height: auto; }
     .site-innovacioneducativa #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu > a:hover {
       color: white !important;
@@ -795,7 +795,7 @@ h1.logo {
     display: flex;
     align-items: stretch; }
     .site-innovacioneducativa #microsite_panel .slide .pane-content > .menu li.parent_menu {
-      width: 14.28%;
+      width: 16.6%;
       display: flex;
       align-items: center; } }
 @media (max-width: 767px) {
