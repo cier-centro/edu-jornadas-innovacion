@@ -1,0 +1,61 @@
+/**
+* Variables
+* --------------------------------------------------
+*/
+
+$site-name:                        site-innovacióneducativa;
+$site-slider:                      oie-destacados;
+$path-site:                        edu-jornadas-innovacion;
+$images-path:                      "http://52.37.84.217/#{$path-site}/img/";
+
+ // Colors
+ // -------------------------------
+$site-bg:                         #d5e3e6 !default;
+$site-bg-shadow:                  #5d90aa !default;
+$content-bg:                      white !default;
+$headers-default-text-color:      #1F2B49 !default;
+$h2-text-color:                   #1f0d2e !default;
+$main-menu-bg:                    #e97117 !default;
+$main-menu-parent-hover-bg:       #e25f05 !default;
+$main-menu-text-hover:            white !default;
+$main-menu-horizontal-separator:  transparent !default;
+$main-menu-item-bg:               $main-menu-bg !default;
+$main-menu-item-hover-bg:         white !default;
+$main-menu-item-separator:        rgba(153, 153, 153, 0.4) !default;
+$lateral-menu-bg:                 #294d89 !default;
+$lateral-menu-hover-bg:           #1e3c60 !default;
+
+$slider-btn-info-hover:           #5b5b5b !default;
+$table-head-bg:                   #e97117 !default;
+$table-odd-row-bg:                rgb(255, 250, 217) !default;
+$table-even-row-bg:               #ffdea1 !default;
+$table-row-hover-bg:              #ff8e3c !default;
+$table-link-color:                #243268 !default;
+$table-border-color:              #b9b6b6 !default;
+$table-head-border-color:         #fff !default;
+$main-lateral-button-border:      #a0a0a0 !default;
+$main-lateral-first-btn-bg:       #b31b58 !default;
+$main-lateral-second-btn-bg:      #9CC34D !default;
+$main-lateral-third-btn-bg:       #66A7DD !default;
+$paragraph-text-color:            #666666 !default;
+$accordion-odd-bg:                #6EA7D5 !default;
+$accordion-even-bg:               #4470b3 !default;
+$accordion-selected-bg:           #1A254E !default;
+$link-text-color:                 #5b5b5f !default;
+$link-text-hover:                 #1f0d2e !default;
+$close-line-color:                #858585 !default;
+$tabs-text-color:                 #061236 !default;
+$current-pager-color:             #DE3A73 !default;
+$home-menu-text-color:            #1f0d2e !default;
+$main-menu-vertical-separator:    #a7bec2 !default;
+$teachers-color:                  #51b701 !default;
+$families-color:                  #ff7400 !default;
+$researchers-color:               #931c0a !default;
+$related-sites-bg-color:          #eaf8f8 !default;
+$buttons-bg-color:                #1d4383 !default;
+$slider-body-bg:                  #78b42f !default;
+$view-more-bg:                    #00732a !default;
+$content-background:              #f5f5f5 !default;
+//Measures
+// -------------------------------
+$main-header-height:              132px;

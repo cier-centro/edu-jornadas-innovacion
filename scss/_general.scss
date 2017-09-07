@@ -1,0 +1,243 @@
+/**
+ * General Styles
+ * --------------------------------------------------
+ */
+
+.content-styles {
+    background: $content-background;
+    border-radius: 7px;
+    margin: 15px 0;
+    padding-bottom: 15px;
+}
+ .#{$site-name} {
+     .main_container {
+         background: url('#{$images-path}img_main_bg.jpg') no-repeat center / cover;
+     }
+     .panels-flexible-region {
+       background-color: $content-bg;
+     }
+     #microsite_panel {
+         min-height: 820px;
+         position: relative;
+     }
+
+     .content {
+         p {
+             a {
+               text-decoration: underline;
+               cursor: pointer;
+               color: $link-text-color;
+
+               &:hover {
+                  color: $link-text-hover;
+               }
+             }
+         }
+     }
+     .section_content {
+        .breadcrumb {
+           margin-bottom: 0px;
+           height: 40px;
+        }
+        p {
+          margin-top: 10px !important;
+          color: $paragraph-text-color !important;
+          padding: 0 5px;
+        }
+     }
+     .bordered-div {
+         border: 1px solid $view-more-bg;
+         padding: 15px;
+         margin: 15px 0;
+         border-radius: 15px;
+     }
+     .home-content, .general-content, .lateral-content {
+         @extend .content-styles;
+
+        .view-content {
+            ul, ol {
+                padding-left: 40px !important;
+
+                li {
+                    margin-top: 10px !important;
+                }
+            }
+            ol {
+                li {
+                    list-style: decimal !important;
+                }
+            }
+            ul {
+                li {
+                    list-style: disc !important;
+                }
+            }
+        }
+     }
+     .general-content {
+        min-height: 500px;
+
+        img {
+            display: block;
+            margin: 15px auto;
+        }
+        .btn {
+            white-space: normal;
+            color: white !important;
+            text-decoration: blink !important;
+            min-height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1px;
+
+            &.col-sm-3 {
+                width: 24%;
+            }
+        }
+     }
+     .lateral-content {
+          h3 {
+             text-align: center;
+             display: block;
+             width: 100%;
+             font-weight: 600 !important;
+          }
+          .views-more-link {
+             display: block;
+             color: $link-text-color;
+             margin: 5px 0 10px;
+          }
+          .view-content .views-row:not(:first-child) {
+             border-top: 1px solid $link-text-color;
+          }
+          .lateral-buttons {
+              a {
+                  width: 100%;
+                  height: 70px;
+                  white-space: normal;
+                  margin-top: 15px;
+                  padding-left: 75px;
+                  text-align: left;
+                  position: relative;
+                  display: flex;
+                  align-items: center;
+
+                  span {
+                    position: absolute;
+                    height: 100%;
+                    width: 70px;
+                    top: 0;
+                    left: 0;
+                    background: url('#{$images-path}img-spritesheet.png') no-repeat;
+                  }
+                  &:first-child {
+                      span {
+                          background-position: -12px -102px;
+                      }
+                  }
+                  &:last-child {
+                      span {
+                          background-position: -112px -102px;
+                      }
+                  }
+              }
+          }
+
+     }
+     .resources-edu-privada {
+         padding-bottom: 15px;
+         a {
+            text-decoration: none !important;
+            display: block;
+            text-align: left;
+            padding-left: 30px;
+            position: relative;
+
+            span {
+              position: absolute;
+              width: 20px;
+              left: 0;
+              top: 0;
+              height: 100%;
+              background: url("#{$images-path}img-spritesheet.png") no-repeat -235px -121px;
+            }
+          }
+      }
+     .registration-content {
+        .row > * {
+            text-align: center;
+            margin: 15px 0;
+        }
+     }
+     .media {
+        margin: 30px 0;
+
+        .media-left {
+            a {
+                width: 110px;
+                display: block;
+            }
+        }
+        .media-body {
+            .media-heading {
+                margin-top: 0 !important;
+            }
+        }
+     }
+
+     @media (min-width: 1100px) {
+         .main_container {
+              .section_content {
+                  width: 1024px !important;
+              }
+          }
+     }
+     @media (min-width: 992px) {
+         .lateral-content {
+            width: 22%;
+            margin-left: 15px;
+
+            a {
+                font-size: 16px;
+            }
+         }
+         .home-content, .general-content, .lateral-content {
+            width: 74%;
+         }
+     }
+     @media (min-width: 992px) and (max-width: 1024px) {
+         #microsite_panel {
+           overflow: hidden;
+         }
+     }
+     @media (min-width: 768px) {
+         .content {
+            .modal-dialog {
+               width: 600px;
+               margin: 15% auto;
+            }
+         }
+         .row-center-sm {
+             display: flex;
+             align-items: center;
+         }
+     }
+     @media (min-width: 768px) and (max-width: 1024px){
+         #banner .view .view-content {
+             margin-bottom: 0 !important;
+         }
+     }
+     @media (max-width: 767px){
+         .section_container.no_left_sidebar .section_content {
+            width: 100% !important;
+         }
+     }
+     @media (max-width: 500px){
+         .general-content {
+             img {
+                width: 100%;
+             }
+         }
+     }
+ }
