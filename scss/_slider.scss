@@ -36,7 +36,7 @@
               }
           }
           .views_slideshow_slide {
-              &, & img {
+              &, & img, .views-field-field-imagen-del-articulo {
                   width: 100% !important;
               }
               label {
@@ -136,7 +136,7 @@
             height: 15%;
             display: flex;
             align-items: center;
-                a {
+                span, a {
                   color: $main-menu-parent-hover-bg;
                   font-weight: 700;
                   font-size: 20px;
@@ -155,10 +155,6 @@
               .views_slideshow_slide > div {
                   height: 390px;
               }
-              .views-field-title {
-                  top: 50%;
-                  right: 100px;
-              }
           }
           @media (max-width: 991px) {
               .views_slideshow_slide > div {
@@ -168,7 +164,27 @@
                   font-size: 11px !important;
               }
           }
+          @media (min-width: 768px) {
+              .views-field-title {
+                  top: 50%;
+                  right: 100px;
+              }
+              &.main-slider {
+                  .views-field-title {
+                      height: auto !important;
+                  }
+              }
+          }
           @media (max-width: 767px) {
+              &.main-slider {
+                  .views-field-title {
+                      span,a {
+                          line-height: 100%;
+                          font-size: 12px !important;
+                          text-align: center !important;
+                      }
+                  }
+              }
               .views_slideshow_slide > div {
                   .views-field-php, .views-field-body {
                       display: none;
