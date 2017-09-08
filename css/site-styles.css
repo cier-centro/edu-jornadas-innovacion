@@ -813,8 +813,7 @@ h1.logo {
 .site-innovacioneducativa .oie-destacados {
   overflow: hidden;
   height: 100%;
-  padding-top: 15px;
-  max-height: 400px; }
+  padding-top: 15px; }
   .site-innovacioneducativa .oie-destacados .views-slideshow-controls-text-pause {
     display: none; }
   .site-innovacioneducativa .oie-destacados .views_slideshow_controls_text_next {
@@ -847,7 +846,8 @@ h1.logo {
       padding: 0 !important; }
   .site-innovacioneducativa .oie-destacados .views_slideshow_slide > div {
     position: relative;
-    height: 20vw; }
+    display: flex;
+    align-items: center; }
     .site-innovacioneducativa .oie-destacados .views_slideshow_slide > div .views-field-body {
       position: absolute;
       top: 65%;
@@ -899,10 +899,8 @@ h1.logo {
     background: #1E1B3F; }
   .site-innovacioneducativa .oie-destacados .views-field-title {
     position: absolute;
-    top: 50%;
     width: 50%;
     background-color: rgba(255, 255, 255, 0.6);
-    right: 100px;
     padding: 1%;
     height: 15%;
     display: flex;
@@ -919,13 +917,27 @@ h1.logo {
     width: 100%;
     z-index: 10;
     padding: 0 15px; }
+  @media (min-width: 992px) {
+    .site-innovacioneducativa .oie-destacados .views_slideshow_slide > div {
+      height: 390px; }
+    .site-innovacioneducativa .oie-destacados .views-field-title {
+      top: 50%;
+      right: 100px; } }
+  @media (max-width: 991px) {
+    .site-innovacioneducativa .oie-destacados .views_slideshow_slide > div {
+      height: 35vw; }
+    .site-innovacioneducativa .oie-destacados .views_slideshow_slide .views-field-body .field-content p {
+      font-size: 11px !important; } }
   @media (max-width: 767px) {
     .site-innovacioneducativa .oie-destacados .views_slideshow_slide > div .views-field-php, .site-innovacioneducativa .oie-destacados .views_slideshow_slide > div .views-field-body {
       display: none; }
     .site-innovacioneducativa .oie-destacados .views_slideshow_slide > div .views-field-title {
       bottom: 0;
-      height: 60px;
-      padding: 0 65px; } }
+      height: 40px;
+      padding: 0 15px;
+      display: flex;
+      justify-content: center;
+      width: 100%; } }
 
 /**
  * Tables Styles
