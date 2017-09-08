@@ -1109,7 +1109,7 @@ h1.logo {
     font-size: 19px;
     font-weight: 700;
     margin: 0 15px 15px 15px;
-    color: #1A254E !important; }
+    color: #004743 !important; }
   .site-innovacioneducativa .modal .modal-body p {
     border-top: 1px solid white;
     margin: -1px 15px !important;
@@ -1199,7 +1199,7 @@ h1.logo {
     text-decoration: none;
     border-radius: 8px 8px 5px 5px; }
     .site-innovacioneducativa .panel-default > .panel-heading > a[aria-expanded="true"] {
-      background-color: #1A254E !important; }
+      background-color: #004743 !important; }
       .site-innovacioneducativa .panel-default > .panel-heading > a[aria-expanded="true"] h4 {
         font-weight: 700; }
     .site-innovacioneducativa .panel-default > .panel-heading > a > h4 {
@@ -1248,7 +1248,7 @@ h1.logo {
   .site-innovacioneducativa .ui-accordion .views-row:nth-child(even) {
     background: #07847f !important; }
   .site-innovacioneducativa .ui-accordion .views-row .ui-state-active {
-    background: #1A254E !important; }
+    background: #004743 !important; }
     .site-innovacioneducativa .ui-accordion .views-row .ui-state-active .field-content {
       font-weight: 700 !important; }
 
