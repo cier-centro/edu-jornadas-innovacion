@@ -8,6 +8,11 @@
       height: 100%;
       padding-top: 15px;
 
+          &.main-slider {
+              .views-field-title {
+                  height: auto !important;
+              }
+          }
           .views-slideshow-controls-text-pause {
           		display: none;
           }
@@ -171,6 +176,15 @@
               }
           }
           @media (max-width: 767px) {
+              &.main-slider {
+                  .views-field-title {
+                      span,a {
+                          line-height: 100%;
+                          font-size: 12px !important;
+                          text-align: center !important;
+                      }
+                  }
+              }
               .views_slideshow_slide > div {
                   .views-field-php, .views-field-body {
                       display: none;

@@ -814,6 +814,8 @@ h1.logo {
   overflow: hidden;
   height: 100%;
   padding-top: 15px; }
+  .site-innovacioneducativa .oie-destacados.main-slider .views-field-title {
+    height: auto !important; }
   .site-innovacioneducativa .oie-destacados .views-slideshow-controls-text-pause {
     display: none; }
   .site-innovacioneducativa .oie-destacados .views_slideshow_controls_text_next {
@@ -930,6 +932,10 @@ h1.logo {
       top: 50%;
       right: 100px; } }
   @media (max-width: 767px) {
+    .site-innovacioneducativa .oie-destacados.main-slider .views-field-title span, .site-innovacioneducativa .oie-destacados.main-slider .views-field-title a {
+      line-height: 100%;
+      font-size: 12px !important;
+      text-align: center !important; }
     .site-innovacioneducativa .oie-destacados .views_slideshow_slide > div .views-field-php, .site-innovacioneducativa .oie-destacados .views_slideshow_slide > div .views-field-body {
       display: none; }
     .site-innovacioneducativa .oie-destacados .views_slideshow_slide > div .views-field-title {
