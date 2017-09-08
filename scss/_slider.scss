@@ -8,11 +8,6 @@
       height: 100%;
       padding-top: 15px;
 
-          &.main-slider {
-              .views-field-title {
-                  height: auto !important;
-              }
-          }
           .views-slideshow-controls-text-pause {
           		display: none;
           }
@@ -173,6 +168,11 @@
               .views-field-title {
                   top: 50%;
                   right: 100px;
+              }
+              &.main-slider {
+                  .views-field-title {
+                      height: auto !important;
+                  }
               }
           }
           @media (max-width: 767px) {
