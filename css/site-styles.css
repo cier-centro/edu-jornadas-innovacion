@@ -635,17 +635,14 @@ h1.logo {
   .site-innovacioneducativa .lateral-content .lateral-buttons a:last-child span {
     background-position: -112px -102px; }
 .site-innovacioneducativa .view-lateral .views-row {
-  background-image: url("http://52.37.84.217/edu-jornadas-innovacion/img/img_bg_item.gif");
-  width: 32%;
+  background: url("http://52.37.84.217/edu-jornadas-innovacion/img/img_bg_item.gif") no-repeat center/100% 100%;
   float: left;
-  padding: 15px 30px 50px 30px;
-  background-repeat: no-repeat;
-  box-sizing: border-box;
+  padding: 10px 30px;
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  background-size: 300px; }
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 .site-innovacioneducativa .registration-content .row > * {
   text-align: center;
   margin: 15px 0; }
@@ -676,13 +673,21 @@ h1.logo {
     margin: 15% auto; }
   .site-innovacioneducativa .row-center-sm {
     display: flex;
-    align-items: center; } }
+    align-items: center; }
+  .site-innovacioneducativa .view-lateral .views-row {
+    width: 31%;
+    margin: 40px 1% 20px;
+    min-height: 120px; } }
 @media (min-width: 768px) and (max-width: 1024px) {
   .site-innovacioneducativa #banner .view .view-content {
     margin-bottom: 0 !important; } }
 @media (max-width: 767px) {
   .site-innovacioneducativa .section_container.no_left_sidebar .section_content {
-    width: 100% !important; } }
+    width: 100% !important; }
+  .site-innovacioneducativa .view-lateral .views-row {
+    width: 92%;
+    margin: 15px 4%;
+    min-height: 60px; } }
 @media (max-width: 500px) {
   .site-innovacioneducativa .general-content img {
     width: 100%; } }

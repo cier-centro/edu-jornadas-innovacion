@@ -145,25 +145,18 @@
           }
 
      }
-     .resources-edu-privada {
-         padding-bottom: 15px;
-         a {
-            text-decoration: none !important;
-            display: block;
-            text-align: left;
-            padding-left: 30px;
-            position: relative;
-
-            span {
-              position: absolute;
-              width: 20px;
-              left: 0;
-              top: 0;
-              height: 100%;
-              background: url("#{$images-path}img-spritesheet.png") no-repeat -235px -121px;
-            }
+     .view-lateral {
+         .views-row {
+              background: url("#{$images-path}img_bg_item.gif") no-repeat center / 100% 100%;
+              float: left;
+              padding: 10px 30px;
+              text-align: center;
+              height: 50px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
           }
-      }
+     }
      .registration-content {
         .row > * {
             text-align: center;
@@ -222,6 +215,11 @@
              display: flex;
              align-items: center;
          }
+         .view-lateral .views-row {
+             width: 31%;
+             margin: 40px 1% 20px;
+             min-height: 120px;
+         }
      }
      @media (min-width: 768px) and (max-width: 1024px){
          #banner .view .view-content {
@@ -231,6 +229,11 @@
      @media (max-width: 767px){
          .section_container.no_left_sidebar .section_content {
             width: 100% !important;
+         }
+         .view-lateral .views-row {
+            width: 92%;
+            margin: 15px 4%;
+            min-height: 60px;
          }
      }
      @media (max-width: 500px){
