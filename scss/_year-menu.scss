@@ -3,7 +3,6 @@
 * --------------------------------------------------
 */
 .#{$site-name} {
-    .panel-content {
       .view-filters{
         background: $year-selector-bg !important;
         border-bottom: 1px solid $year-selector-bg  !important;
@@ -27,7 +26,6 @@
               }
             }
           }
-        }
-      }
+       }
     }
-  }
+}
