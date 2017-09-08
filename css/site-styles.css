@@ -653,6 +653,11 @@ h1.logo {
     display: block; }
   .site-innovacioneducativa .media .media-body .media-heading {
     margin-top: 0 !important; }
+.site-innovacioneducativa .oie-lateral {
+  width: 98%;
+  margin: 10 auto 15px; }
+  .site-innovacioneducativa .oie-lateral > h2 {
+    background: #009892; }
 @media (min-width: 1100px) {
   .site-innovacioneducativa .main_container .section_content {
     width: 1024px !important; } }
@@ -1036,7 +1041,7 @@ h1.logo {
   font-weight: 600;
   border: none; }
   .site-innovacioneducativa .btn:hover {
-    background: #6EA7D5 !important;
+    background: #009892 !important;
     border: none; }
 .site-innovacioneducativa .icon-button {
   background: #5b5b5f;
@@ -1195,9 +1200,9 @@ h1.logo {
       margin: 0px !important;
       font-weight: 500; }
 .site-innovacioneducativa .panel-default:nth-child(odd) > .panel-heading > a {
-  background-color: #6EA7D5; }
+  background-color: #009892; }
 .site-innovacioneducativa .panel-default:nth-child(even) > .panel-heading > a {
-  background-color: #4470b3; }
+  background-color: #07847f; }
 .site-innovacioneducativa .panel-default .panel-collapse {
   margin: -3px 0; }
   .site-innovacioneducativa .panel-default .panel-collapse .panel-body {
@@ -1232,9 +1237,9 @@ h1.logo {
         text-transform: uppercase;
         font-size: 16px; }
   .site-innovacioneducativa .ui-accordion .views-row:nth-child(odd) {
-    background: #6EA7D5 !important; }
+    background: #009892 !important; }
   .site-innovacioneducativa .ui-accordion .views-row:nth-child(even) {
-    background: #4470b3 !important; }
+    background: #07847f !important; }
   .site-innovacioneducativa .ui-accordion .views-row .ui-state-active {
     background: #1A254E !important; }
     .site-innovacioneducativa .ui-accordion .views-row .ui-state-active .field-content {
@@ -1435,7 +1440,9 @@ h1.logo {
 */
 .site-innovacioneducativa .view-filters {
   background: #ff572f !important;
-  border-bottom: 1px solid #ff572f !important; }
+  border-bottom: 1px solid #ff572f !important;
+  width: 98%;
+  margin: 0 auto 15px; }
   .site-innovacioneducativa .view-filters .views-exposed-form .views-exposed-widgets .views-exposed-widget label {
     margin-top: -20px;
     vertical-align: middle;

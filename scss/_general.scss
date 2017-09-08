@@ -178,6 +178,13 @@
             }
         }
      }
+     .oie-lateral{
+       width: 98%;
+       margin: 10 auto 15px;
+       &>h2{
+         background: $accordion-odd-bg;
+       }
+     }
 
      @media (min-width: 1100px) {
          .main_container {
