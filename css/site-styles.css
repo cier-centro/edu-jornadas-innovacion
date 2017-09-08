@@ -548,10 +548,9 @@ h1.logo {
  * --------------------------------------------------
  */
 .content-styles, .site-innovacioneducativa .home-content, .site-innovacioneducativa .general-content, .site-innovacioneducativa .lateral-content {
-  background: #f5f5f5;
   border-radius: 7px;
   margin: 15px 0;
-  padding-bottom: 15px; }
+  padding: 0 15px; }
 
 .site-innovacioneducativa .main_container {
   background: #E0E0E0; }
@@ -586,22 +585,20 @@ h1.logo {
   list-style: decimal !important; }
 .site-innovacioneducativa .home-content .view-content ul li, .site-innovacioneducativa .general-content .view-content ul li, .site-innovacioneducativa .lateral-content .view-content ul li {
   list-style: disc !important; }
-.site-innovacioneducativa .general-content {
-  min-height: 500px; }
-  .site-innovacioneducativa .general-content img {
-    display: block;
-    margin: 15px auto; }
-  .site-innovacioneducativa .general-content .btn {
-    white-space: normal;
-    color: white !important;
-    text-decoration: blink !important;
-    min-height: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1px; }
-    .site-innovacioneducativa .general-content .btn.col-sm-3 {
-      width: 24%; }
+.site-innovacioneducativa .general-content img {
+  display: block;
+  margin: 15px auto; }
+.site-innovacioneducativa .general-content .btn {
+  white-space: normal;
+  color: white !important;
+  text-decoration: blink !important;
+  min-height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1px; }
+  .site-innovacioneducativa .general-content .btn.col-sm-3 {
+    width: 24%; }
 .site-innovacioneducativa .lateral-content h3 {
   text-align: center;
   display: block;
@@ -666,9 +663,7 @@ h1.logo {
     width: 22%;
     margin-left: 15px; }
     .site-innovacioneducativa .lateral-content a {
-      font-size: 16px; }
-  .site-innovacioneducativa .home-content, .site-innovacioneducativa .general-content, .site-innovacioneducativa .lateral-content {
-    width: 74%; } }
+      font-size: 16px; } }
 @media (min-width: 992px) and (max-width: 1024px) {
   .site-innovacioneducativa #microsite_panel {
     overflow: hidden; } }

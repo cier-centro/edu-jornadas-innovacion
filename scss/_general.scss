@@ -4,10 +4,9 @@
  */
 
 .content-styles {
-    background: $content-background;
     border-radius: 7px;
     margin: 15px 0;
-    padding-bottom: 15px;
+    padding: 0 15px;
 }
  .#{$site-name} {
      .main_container {
@@ -75,7 +74,6 @@
         }
      }
      .general-content {
-        min-height: 500px;
 
         img {
             display: block;
@@ -201,9 +199,6 @@
             a {
                 font-size: 16px;
             }
-         }
-         .home-content, .general-content, .lateral-content {
-            width: 74%;
          }
      }
      @media (min-width: 992px) and (max-width: 1024px) {
