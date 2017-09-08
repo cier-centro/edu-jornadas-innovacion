@@ -1429,14 +1429,20 @@ h1.logo {
     vertical-align: middle;
     color: white;
     margin-left: 10px;
-    display: inline-block !important; }
+    display: inline-block !important;
+    font-size: 20px;
+    font-weight: 400; }
   .site-innovacioneducativa .view-filters .views-exposed-form .views-exposed-widgets .views-exposed-widget input {
     background-color: white !important;
     color: #ff572f !important; }
+    .site-innovacioneducativa .view-filters .views-exposed-form .views-exposed-widgets .views-exposed-widget input:after {
+      content: ""; }
   .site-innovacioneducativa .view-filters .views-exposed-form .views-exposed-widgets .views-exposed-widget .views-widget {
     display: inline-block !important; }
     .site-innovacioneducativa .view-filters .views-exposed-form .views-exposed-widgets .views-exposed-widget .views-widget .form-select {
       background-color: white !important;
-      color: black !important; }
+      color: black !important;
+      font-size: 20px;
+      margin-right: 35px; }
 
 /*# sourceMappingURL=site-styles.css.map */
