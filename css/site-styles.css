@@ -1195,7 +1195,9 @@ h1.logo {
 .site-innovacioneducativa .ui-accordion .ui-icon {
   display: none; }
 .site-innovacioneducativa .ui-accordion .views-row {
-  border-radius: 8px; }
+  border-radius: 8px;
+  width: 98%;
+  margin: auto; }
   .site-innovacioneducativa .ui-accordion .views-row .views-field-title {
     border: none;
     margin: 0;
@@ -1407,5 +1409,26 @@ h1.logo {
     background: url("http://52.37.84.217/edu-jornadas-innovacion/img/logo_inci.png") no-repeat center/contain; }
   .site-innovacioneducativa .related-sites .insor-link .site-link {
     background: url("http://52.37.84.217/edu-jornadas-innovacion/img/logo_insor.png") no-repeat center/contain; }
+
+/**
+* Year selector styles
+* --------------------------------------------------
+*/
+.site-innovacioneducativa .panel-content .view-filters {
+  background: #ff572f !important;
+  order-bottom: 1px solid #ff572f !important; }
+  .site-innovacioneducativa .panel-content .view-filters .views-exposed-form .views-exposed-widgets .views-exposed-widget {
+    width: 50%; }
+    .site-innovacioneducativa .panel-content .view-filters .views-exposed-form .views-exposed-widgets .views-exposed-widget label {
+      margin-top: -20px;
+      vertical-align: middle;
+      color: white;
+      margin-left: 10px;
+      display: inline-block !important; }
+    .site-innovacioneducativa .panel-content .view-filters .views-exposed-form .views-exposed-widgets .views-exposed-widget .views-widget {
+      display: inline-block !important; }
+      .site-innovacioneducativa .panel-content .view-filters .views-exposed-form .views-exposed-widgets .views-exposed-widget .views-widget .form-select {
+        background-color: white !important;
+        color: black !important; }
 
 /*# sourceMappingURL=site-styles.css.map */
