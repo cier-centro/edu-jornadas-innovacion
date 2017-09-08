@@ -11,7 +11,7 @@
 }
  .#{$site-name} {
      .main_container {
-         background: url('#{$images-path}img_main_bg.jpg') no-repeat center / cover;
+         background: $site-bg;
      }
      .panels-flexible-region {
        background-color: $content-bg;
