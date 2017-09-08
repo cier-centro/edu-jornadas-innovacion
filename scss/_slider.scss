@@ -85,9 +85,17 @@
                       }
                   }
                   .views-field-php {
-                      position: absolute;
-                      bottom: 15%;
-                      left: 10%;
+                    position: absolute;
+                    top: 85%;
+                    right: 100px;
+                    background: $main-menu-parent-hover-bg;
+                    padding: 10px 15px;
+
+                    a {
+                      color: white;
+                      font-size: 15px;
+                      font-weight: 700;
+                    }
                   }
                   .btn-info {
                       color: white;
@@ -122,7 +130,7 @@
           }
           .views-field-title {
             position: absolute;
-            bottom: 50%;
+            top: 50%;
             width: 50%;
             background-color: rgba(white, 0.6);
             right: 100px;

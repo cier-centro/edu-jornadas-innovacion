@@ -867,8 +867,14 @@ h1.logo {
         color: white !important; }
     .site-innovacioneducativa .oie-destacados .views_slideshow_slide > div .views-field-php {
       position: absolute;
-      bottom: 15%;
-      left: 10%; }
+      top: 85%;
+      right: 100px;
+      background: #1E1B3F;
+      padding: 10px 15px; }
+      .site-innovacioneducativa .oie-destacados .views_slideshow_slide > div .views-field-php a {
+        color: white;
+        font-size: 15px;
+        font-weight: 700; }
     .site-innovacioneducativa .oie-destacados .views_slideshow_slide > div .btn-info {
       color: white;
       border: 2px solid white; }
@@ -893,7 +899,7 @@ h1.logo {
     background: #1E1B3F; }
   .site-innovacioneducativa .oie-destacados .views-field-title {
     position: absolute;
-    bottom: 50%;
+    top: 50%;
     width: 50%;
     background-color: rgba(255, 255, 255, 0.6);
     right: 100px;
