@@ -3,19 +3,23 @@
 * --------------------------------------------------
 */
 .#{$site-name} {
+    .panel-content {
       .view-filters{
         background: $year-selector-bg !important;
         border-bottom: 1px solid $year-selector-bg  !important;
         .views-exposed-form{
           .views-exposed-widgets{
             .views-exposed-widget{
-              width: 50%;
               label{
                 margin-top: -20px;
                 vertical-align: middle;
                 color: white;
                 margin-left: 10px;
                 display: inline-block !important;
+              }
+              input{
+                background-color: $year-selector-options-bg !important;
+                color: $year-selector-bg !important;
               }
               .views-widget{
                 display: inline-block !important;
@@ -26,6 +30,7 @@
               }
             }
           }
-       }
+        }
+      }
     }
-}
+  }

@@ -1421,21 +1421,22 @@ h1.logo {
 * Year selector styles
 * --------------------------------------------------
 */
-.site-innovacioneducativa .view-filters {
+.site-innovacioneducativa .panel-content .view-filters {
   background: #ff572f !important;
   border-bottom: 1px solid #ff572f !important; }
-  .site-innovacioneducativa .view-filters .views-exposed-form .views-exposed-widgets .views-exposed-widget {
-    width: 50%; }
-    .site-innovacioneducativa .view-filters .views-exposed-form .views-exposed-widgets .views-exposed-widget label {
-      margin-top: -20px;
-      vertical-align: middle;
-      color: white;
-      margin-left: 10px;
-      display: inline-block !important; }
-    .site-innovacioneducativa .view-filters .views-exposed-form .views-exposed-widgets .views-exposed-widget .views-widget {
-      display: inline-block !important; }
-      .site-innovacioneducativa .view-filters .views-exposed-form .views-exposed-widgets .views-exposed-widget .views-widget .form-select {
-        background-color: white !important;
-        color: black !important; }
+  .site-innovacioneducativa .panel-content .view-filters .views-exposed-form .views-exposed-widgets .views-exposed-widget label {
+    margin-top: -20px;
+    vertical-align: middle;
+    color: white;
+    margin-left: 10px;
+    display: inline-block !important; }
+  .site-innovacioneducativa .panel-content .view-filters .views-exposed-form .views-exposed-widgets .views-exposed-widget input {
+    background-color: white !important;
+    color: #ff572f !important; }
+  .site-innovacioneducativa .panel-content .view-filters .views-exposed-form .views-exposed-widgets .views-exposed-widget .views-widget {
+    display: inline-block !important; }
+    .site-innovacioneducativa .panel-content .view-filters .views-exposed-form .views-exposed-widgets .views-exposed-widget .views-widget .form-select {
+      background-color: white !important;
+      color: black !important; }
 
 /*# sourceMappingURL=site-styles.css.map */
