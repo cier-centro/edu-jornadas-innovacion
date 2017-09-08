@@ -634,21 +634,18 @@ h1.logo {
     background-position: -12px -102px; }
   .site-innovacioneducativa .lateral-content .lateral-buttons a:last-child span {
     background-position: -112px -102px; }
-.site-innovacioneducativa .resources-edu-privada {
-  padding-bottom: 15px; }
-  .site-innovacioneducativa .resources-edu-privada a {
-    text-decoration: none !important;
-    display: block;
-    text-align: left;
-    padding-left: 30px;
-    position: relative; }
-    .site-innovacioneducativa .resources-edu-privada a span {
-      position: absolute;
-      width: 20px;
-      left: 0;
-      top: 0;
-      height: 100%;
-      background: url("http://52.37.84.217/edu-jornadas-innovacion/img/img-spritesheet.png") no-repeat -235px -121px; }
+.site-innovacioneducativa .view-lateral .views-row {
+  background-image: url("http://52.37.84.217/edu-jornadas-innovacion/img/img_bg_item.gif");
+  width: 32%;
+  float: left;
+  padding: 15px 30px 50px 30px;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  background-size: 300px; }
 .site-innovacioneducativa .registration-content .row > * {
   text-align: center;
   margin: 15px 0; }
@@ -819,13 +816,13 @@ h1.logo {
     .site-innovacioneducativa .oie-destacados .views_slideshow_controls_text_next a {
       color: transparent;
       padding-bottom: 35px;
-      background: url("http://52.37.84.217/edu-jornadas-innovacion/img/img-spritesheet.png") no-repeat -51px 2px; }
+      background: url("http://52.37.84.217/edu-jornadas-innovacion/img/img-spritesheet.png") no-repeat -49px 4px; }
       .site-innovacioneducativa .oie-destacados .views_slideshow_controls_text_next a:hover {
         /*background-position: -59px -55px !important;*/ }
   .site-innovacioneducativa .oie-destacados .views-slideshow-controls-text-previous a {
     color: transparent;
     padding-bottom: 35px;
-    background: url("http://52.37.84.217/edu-jornadas-innovacion/img/img-spritesheet.png") no-repeat 3px 2px; }
+    background: url("http://52.37.84.217/edu-jornadas-innovacion/img/img-spritesheet.png") no-repeat 2px 4px; }
     .site-innovacioneducativa .oie-destacados .views-slideshow-controls-text-previous a:hover {
       /*background-position: -6px -55px !important;*/ }
   .site-innovacioneducativa .oie-destacados .views_slideshow_slide, .site-innovacioneducativa .oie-destacados .views_slideshow_slide img {
