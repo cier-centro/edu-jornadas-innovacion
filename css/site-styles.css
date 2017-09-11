@@ -1551,7 +1551,14 @@ h1.logo {
 .site-innovacioneducativa .images-carousel .jcarousel-clip-horizontal {
   width: 100%; }
 .site-innovacioneducativa .images-carousel .jcarousel-item {
-  width: 25vw;
-  height: auto; }
+  width: 12.5vw;
+  height: 12.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .site-innovacioneducativa .images-carousel .jcarousel-item .views-field-field-imagenes-de-la-jornada img {
+    height: 12.5vw;
+    max-width: 100vw;
+    width: auto; }
 
 /*# sourceMappingURL=site-styles.css.map */
