@@ -233,12 +233,15 @@
               a {
                 background: $accordion-odd-bg;
                 margin: 0 15px;
-                padding: 15px;
-                display: block;
+                padding: 0 15px;
                 border-left: 10px solid $accordion-selected-bg;
                 color: white;
                 font-size: 16px;
                 font-weight: 600;
+                min-height: 55px;
+                align-items: center;
+                display: flex;
+                justify-content: center;
 
                 &:hover {
                     background: $accordion-even-bg;
@@ -302,13 +305,16 @@
                   width: 50%;
                   float: left;
               }
+              & > div:last-child {
+                  float: right !important;
+              }
               .views-field-field-portada-de-la-jornada, .views-field-body {
                   height: 300px;
                   display: flex;
                   padding: 15px;
               }
               .views-field-body {
-                  overflow-y: scroll;
+                  overflow-y: auto;
                   border: 2px solid $accordion-odd-bg;
               }
               .views-field-field-portada-de-la-jornada {
