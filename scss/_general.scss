@@ -226,6 +226,25 @@
                  border: 0;
               }
           }
+          .views-field-field-memorias-de-la-jornada,
+          .views-field-field-resultados-de-las-encuesta,
+          .views-field-field-foro-de-la-jornada-de-part,
+          .views-field-field-cargar-la-agenda-del-event {
+              a {
+                background: $accordion-odd-bg;
+                margin: 0 15px;
+                padding: 15px;
+                display: block;
+                border-left: 10px solid $accordion-selected-bg;
+                color: white;
+                font-size: 16px;
+                font-weight: 600;
+
+                &:hover {
+                    background: $accordion-even-bg;
+                }
+              }
+          }
        }
     }
      @media (min-width: 1100px) {
@@ -290,7 +309,7 @@
               }
               .views-field-body {
                   overflow-y: scroll;
-                  border: 2px solid $year-selector-bg;
+                  border: 2px solid $accordion-odd-bg;
               }
               .views-field-field-portada-de-la-jornada {
                   align-items: center;
