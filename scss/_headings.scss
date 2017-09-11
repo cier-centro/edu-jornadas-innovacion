@@ -10,18 +10,18 @@
  .#{$site-name} {
     .content {
         h1 {
-            color: $h2-text-color;
+            color: $year-selector-bg;
             margin-top: 30px;
             font-size: 30px;
+            font-weight: 600;
             @extend .content-header-styles;
         }
         h2 {
             font-size: 20px;
-            color: white;
+            color: $accordion-odd-bg;
             margin-top: 15px;
             font-weight: 600;
             padding: 9px 5px;
-            background: $view-more-bg;
             @extend .content-header-styles;
         }
         h3 {

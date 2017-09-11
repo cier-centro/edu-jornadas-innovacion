@@ -655,6 +655,11 @@ h1.logo {
   margin: 10px auto 15px !important; }
   .site-innovacioneducativa .oie-lateral > h2 {
     background: #009892 !important; }
+  .site-innovacioneducativa .oie-lateral .view-content {
+    border: 1px solid #009892; }
+    .site-innovacioneducativa .oie-lateral .view-content a {
+      color: #009892;
+      font-weight: 600; }
 @media (min-width: 1100px) {
   .site-innovacioneducativa .main_container .section_content {
     width: 1024px !important; } }
@@ -702,16 +707,16 @@ h1.logo {
   margin-bottom: 0px !important; }
 
 .site-innovacioneducativa .content h1 {
-  color: #1f0d2e;
+  color: #ff572f;
   margin-top: 30px;
-  font-size: 30px; }
+  font-size: 30px;
+  font-weight: 600; }
 .site-innovacioneducativa .content h2 {
   font-size: 20px;
-  color: white;
+  color: #009892;
   margin-top: 15px;
   font-weight: 600;
-  padding: 9px 5px;
-  background: #00732a; }
+  padding: 9px 5px; }
 .site-innovacioneducativa .content h3 {
   font-size: 18px;
   color: #1f0d2e;
