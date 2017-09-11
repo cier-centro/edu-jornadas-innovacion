@@ -1541,4 +1541,17 @@ h1.logo {
       background-color: white !important;
       color: black !important; }
 
+/**
+*Images Carousel styles
+* --------------------------------------------------
+*/
+.site-innovacioneducativa .images-carousel .jcarousel-container-horizontal {
+  width: 100%;
+  height: auto; }
+.site-innovacioneducativa .images-carousel .jcarousel-clip-horizontal {
+  width: 100%; }
+.site-innovacioneducativa .images-carousel .jcarousel-item {
+  width: 25vw;
+  height: auto; }
+
 /*# sourceMappingURL=site-styles.css.map */

@@ -1,0 +1,19 @@
+/**
+*Images Carousel styles
+* --------------------------------------------------
+*/
+.#{$site-name} {
+    .images-carousel {
+        .jcarousel-container-horizontal {
+            width: 100%;
+            height: auto;
+        }
+        .jcarousel-clip-horizontal {
+            width: 100%;
+        }
+        .jcarousel-item {
+            width: 25vw;
+            height: auto;
+        }
+    }
+}
