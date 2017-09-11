@@ -684,7 +684,21 @@ h1.logo {
   .site-innovacioneducativa .view-lateral .views-row {
     width: 31%;
     margin: 40px 1% 20px;
-    min-height: 120px; } }
+    min-height: 120px; }
+  .site-innovacioneducativa .conferences-filter .views-field-body {
+    width: 45%;
+    float: left;
+    margin-right: 5%; }
+    .site-innovacioneducativa .conferences-filter .views-field-body .views-more-link {
+      display: block;
+      text-align: right;
+      color: green;
+      font-weight: 600;
+      font-size: 16px;
+      margin-top: 10px; }
+  .site-innovacioneducativa .conferences-filter .views-field-field-portada-de-la-jornada {
+    width: 50%;
+    float: left; } }
 @media (min-width: 768px) and (max-width: 1024px) {
   .site-innovacioneducativa #banner .view .view-content {
     margin-bottom: 0 !important; } }
@@ -694,7 +708,7 @@ h1.logo {
   .site-innovacioneducativa .view-lateral .views-row {
     width: 92%;
     margin: 15px 4%;
-    min-height: 60px; } }
+    min-height: 80px; } }
 @media (max-width: 500px) {
   .site-innovacioneducativa .general-content img {
     width: 100%; } }
@@ -804,7 +818,7 @@ h1.logo {
     display: flex;
     align-items: stretch; }
     .site-innovacioneducativa #microsite_panel .slide .pane-content > .menu li.parent_menu {
-      width: 16.6%;
+      width: 16.7%;
       display: flex;
       align-items: center; } }
 @media (max-width: 767px) {
