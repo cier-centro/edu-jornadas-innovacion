@@ -192,6 +192,43 @@
          }
        }
      }
+     .conferences-filter {
+         .views-field-body {
+             .views-more-link {
+                  display: block;
+                  text-align: right;
+                  color: $accordion-odd-bg;
+                  font-weight: 600;
+                  font-size: 16px;
+                  margin-top: 10px;
+             }
+         }
+     }
+     .conference-content {
+       .views-row {
+          & > div:not(:first-child) {
+              margin-top: 15px;
+          }
+       }
+       .views-field-field-video-de-la-jornada {
+           position: relative;
+           display: block;
+           height: 0;
+           padding: 0;
+           overflow: hidden;
+           padding-bottom: 28.25%;
+
+           iframe {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              border: 0;
+           }
+       }
+    }
      @media (min-width: 1100px) {
          .main_container {
               .section_content {
@@ -208,6 +245,27 @@
                 font-size: 16px;
             }
          }
+         .conference-content {
+           .views-row {
+              & > div:not(:first-child) {
+                  width: 50%;
+                  float: left;
+                  margin-top: 15px;
+              }
+              .views-field-field-portada-de-la-jornada, .views-field-body {
+                  height: 300px;
+                  display: flex;
+                  padding: 15px;
+              }
+              .views-field-body {
+                  overflow-y: scroll;
+                  border: 2px solid $year-selector-bg;
+              }
+              .views-field-field-portada-de-la-jornada {
+                  align-items: center;
+              }
+           }
+        }
      }
      @media (min-width: 992px) and (max-width: 1024px) {
          #microsite_panel {
@@ -235,15 +293,6 @@
                  width: 45%;
                  float: left;
                  margin-right: 5%;
-
-                 .views-more-link {
-                    display: block;
-                    text-align: right;
-                    color: green;
-                    font-weight: 600;
-                    font-size: 16px;
-                    margin-top: 10px;
-                 }
              }
              .views-field-field-portada-de-la-jornada {
                  width: 50%;
