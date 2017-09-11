@@ -654,7 +654,9 @@ h1.logo {
   width: 98%;
   margin: 10px auto 15px !important; }
   .site-innovacioneducativa .oie-lateral > h2 {
-    background: #009892 !important; }
+    background: #009892 !important;
+    color: white !important;
+    padding-left: 15px !important; }
   .site-innovacioneducativa .oie-lateral .view-content {
     border: 1px solid #009892; }
     .site-innovacioneducativa .oie-lateral .view-content a {

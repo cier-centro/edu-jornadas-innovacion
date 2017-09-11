@@ -181,6 +181,8 @@
        margin: 10px auto 15px !important;
        &>h2{
          background: $accordion-odd-bg !important;
+         color: white !important;
+         padding-left: 15px !important;
        }
        .view-content {
          border: 1px solid $accordion-odd-bg;
