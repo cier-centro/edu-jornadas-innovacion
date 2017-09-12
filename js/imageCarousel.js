@@ -1,5 +1,6 @@
 <script>
-    window.onload = function() {
+
+    window.onready = function() {
       var galleryClass = ".images-carousel";
       var imageContainerClass = " .jcarousel-item .views-field-field-imagenes-de-la-jornada .field-content";
       var galleryItemContainers = document.querySelectorAll(galleryClass + " .jcarousel-item");
@@ -8,11 +9,11 @@
 
       buildModalButtons (galleryImages, galleryImagesContainers, galleryClass + imageContainerClass);
       buildModalViews(galleryImages, galleryItemContainers, galleryClass);
+      $( ".conference-content .views-field-field-portada-de-la-jornada" ).after( $(".images-carousel") );
+      $(".images-carousel").attr('style','width: 100%');
     };
 
     function buildModalButtons (imagesArray, imagesContainersArray, containerClass) {
-      console.log(imagesArray);
-      console.log(imagesContainersArray);
       if ((imagesArray.length == imagesContainersArray.length) && (imagesArray.length > 0)) {
         for (var i = 0; i < imagesArray.length; i++) {
 
@@ -41,7 +42,7 @@
     }
 
     function getModalView(modalTitle, index) {
-      var modalViewStarTag = "<div id='imageModal"+ index + "' class='modal fade' role='dialog'><div class='modal-dialog'><div class='modal-content'>";
+      var modalViewStarTag = "<div id='imageModal"+ index + "' class='modal fade' role='dialog'><div class='modal-dialog modal-lg'><div class='modal-content'>";
       var modalHeaderStarTag = "<div class='modal-header'><button type='button' class='close' data-dismiss='modal'>&times;</button><h4 class='modal-title'>";
       var modalHeaderFinishTag = "</h4></div>";
       var modalHeaderTag = modalHeaderStarTag + modalTitle + modalHeaderFinishTag;
