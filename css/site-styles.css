@@ -1550,6 +1550,8 @@ h1.logo {
 *Images Carousel styles
 * --------------------------------------------------
 */
+.site-innovacioneducativa .images-carousel ul.jcarousel {
+  padding: 0 !important; }
 .site-innovacioneducativa .images-carousel .jcarousel-container-horizontal {
   width: 100%;
   height: auto;

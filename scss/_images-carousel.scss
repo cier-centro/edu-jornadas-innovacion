@@ -4,6 +4,9 @@
 */
 .#{$site-name} {
     .images-carousel {
+        ul.jcarousel{
+          padding: 0 !important;
+        }
         .jcarousel-container-horizontal {
             width: 100%;
             height: auto;
