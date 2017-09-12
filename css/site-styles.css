@@ -705,6 +705,8 @@ h1.logo {
   .site-innovacioneducativa .conference-content .views-row .views-field-field-foro-de-la-jornada-de-part a:hover,
   .site-innovacioneducativa .conference-content .views-row .views-field-field-cargar-la-agenda-del-event a:hover {
     background: #07847f; }
+.site-innovacioneducativa .modal {
+  display: flex !important; }
 @media (min-width: 1100px) {
   .site-innovacioneducativa .main_container .section_content {
     width: 1024px !important; } }
@@ -719,7 +721,7 @@ h1.logo {
     overflow: hidden; } }
 @media (min-width: 768px) {
   .site-innovacioneducativa .content .modal-dialog {
-    width: 600px;
+    min-width: 70%;
     margin: 15% auto; }
   .site-innovacioneducativa .row-center-sm {
     display: flex;
