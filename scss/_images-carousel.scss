@@ -7,9 +7,26 @@
         .jcarousel-container-horizontal {
             width: 100%;
             height: auto;
+            padding: 20px 60px;
         }
         .jcarousel-clip-horizontal {
             width: 100%;
+
+            .jcarousel-prev, .jcarousel-next {
+                background: url("#{$images-path}img-spritesheet.png") no-repeat;
+                width: 40px;
+                height: 40px;
+                top: calc(50% - 20px);
+            }
+
+            .jcarousel-prev {
+                background-position: -3px -54px;
+                left: 13px;
+            }
+            .jcarousel-next {
+                background-position: -58px -54px;
+                right: 13px;
+            }
         }
         .jcarousel-item {
             width: 12.5vw;
