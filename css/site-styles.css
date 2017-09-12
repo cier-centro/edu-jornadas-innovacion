@@ -725,7 +725,7 @@ h1.logo {
   @media (min-width: 768px) {
     .site-innovacioneducativa .content .modal-dialog {
       min-width: 70%;
-      margin: 15% auto; }
+      margin: 5% auto; }
     .site-innovacioneducativa .row-center-sm {
       display: flex;
       align-items: center; }
