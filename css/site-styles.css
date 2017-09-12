@@ -650,16 +650,16 @@ h1.logo {
     display: block; }
   .site-innovacioneducativa .media .media-body .media-heading {
     margin-top: 0 !important; }
-.site-innovacioneducativa .oie-lateral {
+.site-innovacioneducativa .oie-lateral, .site-innovacioneducativa .images-carousel {
   width: 98%;
   margin: 10px auto 15px !important; }
-  .site-innovacioneducativa .oie-lateral > h2 {
+  .site-innovacioneducativa .oie-lateral h2, .site-innovacioneducativa .images-carousel h2 {
     background: #009892 !important;
     color: white !important;
     padding-left: 15px !important; }
-  .site-innovacioneducativa .oie-lateral .view-content {
+  .site-innovacioneducativa .oie-lateral .view-content, .site-innovacioneducativa .images-carousel .view-content {
     border: 1px solid #009892; }
-    .site-innovacioneducativa .oie-lateral .view-content a {
+    .site-innovacioneducativa .oie-lateral .view-content a, .site-innovacioneducativa .images-carousel .view-content a {
       color: #009892;
       font-weight: 600; }
 .site-innovacioneducativa .conferences-filter .views-field-body .views-more-link {

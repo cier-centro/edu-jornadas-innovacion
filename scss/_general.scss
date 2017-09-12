@@ -176,21 +176,21 @@
             }
         }
      }
-     .oie-lateral{
+     .oie-lateral, .images-carousel {
        width: 98%;
        margin: 10px auto 15px !important;
-       &>h2{
-         background: $accordion-odd-bg !important;
-         color: white !important;
-         padding-left: 15px !important;
-       }
-       .view-content {
-         border: 1px solid $accordion-odd-bg;
-         a {
-           color: #009892;
-           font-weight: 600;
-         }
-       }
+           h2{
+             background: $accordion-odd-bg !important;
+             color: white !important;
+             padding-left: 15px !important;
+           }
+           .view-content {
+             border: 1px solid $accordion-odd-bg;
+             a {
+               color: #009892;
+               font-weight: 600;
+             }
+           }
      }
      .conferences-filter {
          .views-field-body {
