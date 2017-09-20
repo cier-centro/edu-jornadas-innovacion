@@ -893,7 +893,8 @@ h1.logo {
 .site-innovacioneducativa .oie-destacados {
   overflow: hidden;
   height: 100%;
-  padding-top: 15px; }
+  padding-top: 15px;
+  position: relative; }
   .site-innovacioneducativa .oie-destacados .views-slideshow-controls-text-pause {
     display: none; }
   .site-innovacioneducativa .oie-destacados .views_slideshow_controls_text_next {
