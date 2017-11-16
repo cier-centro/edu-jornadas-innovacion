@@ -631,13 +631,13 @@ h1.logo {
       width: 70px;
       top: 0;
       left: 0;
-      background: url("http://52.37.84.217/edu-jornadas-innovacion/img/img-spritesheet.png") no-repeat; }
+      background: url("../img/img-spritesheet.png") no-repeat; }
     .site-innovacioneducativa .lateral-content .lateral-buttons a:first-child span {
       background-position: -12px -102px; }
     .site-innovacioneducativa .lateral-content .lateral-buttons a:last-child span {
       background-position: -112px -102px; }
   .site-innovacioneducativa .view-lateral .views-row {
-    background: url("http://52.37.84.217/edu-jornadas-innovacion/img/img_bg_item.gif") no-repeat center/100% 100%;
+    background: url("../img/img_bg_item.gif") no-repeat center/100% 100%;
     float: left;
     padding: 10px 30px;
     text-align: center;
@@ -902,13 +902,13 @@ h1.logo {
     .site-innovacioneducativa .oie-destacados .views_slideshow_controls_text_next a {
       color: transparent;
       padding-bottom: 35px;
-      background: url("http://52.37.84.217/edu-jornadas-innovacion/img/img-spritesheet.png") no-repeat -49px 4px; }
+      background: url("../img/img-spritesheet.png") no-repeat -49px 4px; }
       .site-innovacioneducativa .oie-destacados .views_slideshow_controls_text_next a:hover {
         /*background-position: -59px -55px !important;*/ }
   .site-innovacioneducativa .oie-destacados .views-slideshow-controls-text-previous a {
     color: transparent;
     padding-bottom: 35px;
-    background: url("http://52.37.84.217/edu-jornadas-innovacion/img/img-spritesheet.png") no-repeat 2px 4px; }
+    background: url("../img/img-spritesheet.png") no-repeat 2px 4px; }
     .site-innovacioneducativa .oie-destacados .views-slideshow-controls-text-previous a:hover {
       /*background-position: -6px -55px !important;*/ }
   .site-innovacioneducativa .oie-destacados .views_slideshow_slide, .site-innovacioneducativa .oie-destacados .views_slideshow_slide img, .site-innovacioneducativa .oie-destacados .views_slideshow_slide .views-field-field-imagen-del-articulo {
@@ -963,13 +963,13 @@ h1.logo {
         color: #5b5b5b !important;
         border: 2px solid #5b5b5b !important; }
         .site-innovacioneducativa .oie-destacados .views_slideshow_slide > div .btn-info:hover span {
-          background: url("http://52.37.84.217/edu-jornadas-innovacion/img/img-spritesheet.png") no-repeat -105px -200px !important; }
+          background: url("../img/img-spritesheet.png") no-repeat -105px -200px !important; }
       .site-innovacioneducativa .oie-destacados .views_slideshow_slide > div .btn-info span {
         height: 27px;
         width: 27px;
         margin-left: 15px;
         float: right;
-        background: url("http://52.37.84.217/edu-jornadas-innovacion/img/img-spritesheet.png") no-repeat -174px -25px; }
+        background: url("../img/img-spritesheet.png") no-repeat -174px -25px; }
   .site-innovacioneducativa .oie-destacados .views-more-link {
     color: white;
     padding: 4px 10px;
@@ -1131,7 +1131,7 @@ h1.logo {
   padding: 10px 16px 10px 50px;
   position: relative; }
   .site-innovacioneducativa .icon-button span {
-    background: url("http://52.37.84.217/edu-jornadas-innovacion/img/img-spritesheet.png") no-repeat;
+    background: url("../img/img-spritesheet.png") no-repeat;
     height: 45px;
     width: 45px;
     position: absolute;
@@ -1198,11 +1198,11 @@ h1.logo {
   height: 50px; }
 .site-innovacioneducativa .modal .modal-footer .bienestar-laboral-logo {
   float: left;
-  background: url("http://52.37.84.217/edu-jornadas-innovacion/img/logo-bienestarlaboral.png") no-repeat center/contain; }
+  background: url("../img/logo-bienestarlaboral.png") no-repeat center/contain; }
 .site-innovacioneducativa .modal .modal-footer .new-country-logo {
-  background: url("http://52.37.84.217/edu-jornadas-innovacion/img/logo-nuevopais.png") no-repeat center/contain; }
+  background: url("../img/logo-nuevopais.png") no-repeat center/contain; }
 .site-innovacioneducativa .modal .modal-footer .mineducacion-logo {
-  background: url("http://52.37.84.217/edu-jornadas-innovacion/img/logo-mineducacion.png") no-repeat center/contain; }
+  background: url("../img/logo-mineducacion.png") no-repeat center/contain; }
 .site-innovacioneducativa .modal .modal-footer .new-country-logo, .site-innovacioneducativa .modal .modal-footer .mineducacion-logo {
   float: right; }
 @media (max-width: 767px) {
@@ -1353,7 +1353,7 @@ h1.logo {
           position: absolute;
           top: 0;
           right: 11px;
-          background: url("http://52.37.84.217/edu-jornadas-innovacion/img/img-spritesheet.png") no-repeat 0px -47px; }
+          background: url("../img/img-spritesheet.png") no-repeat 0px -47px; }
       .site-innovacioneducativa .main-lateral-panel .pane-content ul > li:hover {
         background-color: #1e3c60; }
       .site-innovacioneducativa .main-lateral-panel .pane-content ul > li > a {
@@ -1377,7 +1377,7 @@ h1.logo {
   color: #DE3A73;
   width: 40px; }
 .site-innovacioneducativa .content .pager .pager-first a, .site-innovacioneducativa .content .pager .pager-previous a, .site-innovacioneducativa .content .pager .pager-next a, .site-innovacioneducativa .content .pager .pager-last a {
-  background: url("http://52.37.84.217/edu-jornadas-innovacion/img/img-pager-spritesheet.png"); }
+  background: url("../img/img-pager-spritesheet.png"); }
 .site-innovacioneducativa .content .pager .pager-first a {
   background-position: 3px -20px; }
 .site-innovacioneducativa .content .pager .pager-previous a {
@@ -1460,7 +1460,7 @@ h1.logo {
     position: absolute;
     height: 85px;
     width: 86px;
-    background: url("http://52.37.84.217/edu-jornadas-innovacion/img/img-spritesheet.png") no-repeat;
+    background: url("../img/img-spritesheet.png") no-repeat;
     left: 40px;
     top: 0; }
   .site-innovacioneducativa .site-title h1 {
@@ -1509,13 +1509,13 @@ h1.logo {
     width: 100%;
     height: 65px; }
   .site-innovacioneducativa .related-sites .icfes-link .site-link {
-    background: url("http://52.37.84.217/edu-jornadas-innovacion/img/logo_icfes.png") no-repeat center/contain; }
+    background: url("../img/logo_icfes.png") no-repeat center/contain; }
   .site-innovacioneducativa .related-sites .icetex-link .site-link {
-    background: url("http://52.37.84.217/edu-jornadas-innovacion/img/logo_icetex.png") no-repeat center/contain; }
+    background: url("../img/logo_icetex.png") no-repeat center/contain; }
   .site-innovacioneducativa .related-sites .inci-link .site-link {
-    background: url("http://52.37.84.217/edu-jornadas-innovacion/img/logo_inci.png") no-repeat center/contain; }
+    background: url("../img/logo_inci.png") no-repeat center/contain; }
   .site-innovacioneducativa .related-sites .insor-link .site-link {
-    background: url("http://52.37.84.217/edu-jornadas-innovacion/img/logo_insor.png") no-repeat center/contain; }
+    background: url("../img/logo_insor.png") no-repeat center/contain; }
 
 /**
 * Year selector styles
@@ -1558,7 +1558,7 @@ h1.logo {
   height: auto;
   padding: 20px 60px; }
   .site-innovacioneducativa .images-carousel .jcarousel-container-horizontal .jcarousel-prev, .site-innovacioneducativa .images-carousel .jcarousel-container-horizontal .jcarousel-next {
-    background: url("http://52.37.84.217/edu-jornadas-innovacion/img/img-spritesheet.png") no-repeat;
+    background: url("../img/img-spritesheet.png") no-repeat;
     width: 40px;
     height: 40px;
     top: calc(50% - 20px); }
